@@ -1,0 +1,12 @@
+Create a web page for flash cards using html, css, and js.
+Allow for a variable number of flash cards.
+Display should be compact.
+Sort flashcards randomly before initial display.
+Display flashcards one at a time.
+Display flashcard answer when the flashcard question is clicked.
+Provide next, previous and sort function buttons.
+Sort button triggers logic to sort the flashcards randomly.
+Make background blue.
+Provide sample data.
+Use best practices.
+Provide analysis at end on how each file works and how they work together.

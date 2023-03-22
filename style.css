@@ -1,0 +1,57 @@
+﻿body {
+  background-color: blue;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.flashcard {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  width: 80%;
+}
+
+.flashcard .question {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.flashcard .answer {
+  display: none;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}

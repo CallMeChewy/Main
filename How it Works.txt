@@ -1,0 +1,26 @@
+index.html: This file contains the HTML structure and content of the web page that the user interacts with. It begins with the <html> tag, followed by the <head> section, which includes the title of the web page, meta tags, and links to external resources, such as the CSS and JavaScript files.
+Inside the <body> tag, the flashcard app is created using HTML elements such as the flashcard container, question and answer elements, navigation buttons, and the script links to the CSS and JavaScript files.
+
+The flashcard container is defined as a <div> element with the class name card. Inside this container, there are two child elements, the question and answer elements, both of which are defined as <div> elements with the class names card-front and card-back, respectively. These elements are initially set to display the question side of the flashcard, with the answer side hidden using CSS.
+
+Below the flashcard container, there are three navigation buttons defined as <button> elements with the class names prev-btn, next-btn, and shuffle-btn. These buttons allow the user to navigate through the flashcards and shuffle the order of the cards.
+
+
+style.css: This file contains the CSS rules that define the appearance and layout of the HTML elements on the page. It begins with a CSS reset to remove default browser styles, followed by the CSS rules that apply to specific HTML elements.
+The flashcard container is styled with a fixed height and width, along with a border, border radius, and a shadow to give it a 3D effect. The question and answer elements are styled with the same height and width as the flashcard container and positioned using absolute positioning, so that they overlap each other. The card-back class is initially set to have display: none to hide the answer side of the flashcard.
+
+The navigation buttons are styled with a background color, border, border radius, and font size to make them stand out from the rest of the page. The buttons are also positioned using absolute positioning, so that they are located at the bottom of the flashcard container.
+
+Finally, the background color of the page is set to blue using the body tag.
+
+
+script.js: This file contains the JavaScript code that initializes the flashcard app and defines its behavior. It begins by defining the cards array, which contains the data for the flashcards. Each element in the cards array is an object with two properties, question and answer, which contain the text for the front and back of the flashcard, respectively.
+The flipCard() function is defined next, which toggles the visibility of the question and answer elements on the flashcard when the user clicks on the flashcard. When the function is called, it uses the classList.toggle() method to add or remove the flipped class from the flashcard container, which has the effect of hiding or showing the answer side of the flashcard.
+
+The prevCard() and nextCard() functions are defined next, which allow the user to navigate through the flashcards by updating the current card index and updating the content of the question and answer elements. When the user clicks on the prev-btn or next-btn, the functions are called, which increment or decrement the current card index and update the content of the question and answer elements with the text from the current card in the cards array.
+
+The sortCards() function is defined last, which shuffles the order of the flashcards in the cards array using the Array.sort() and Math.random() methods
+
+
+Together, the HTML, CSS, and JavaScript files work together to create a simple flashcard app that allows users to study a variable number of flashcards. The HTML defines the structure of the web page, the CSS defines the styles, and the JavaScript defines the functionality.
+
