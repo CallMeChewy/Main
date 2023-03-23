@@ -23,4 +23,3 @@ The sortCards() function is defined last, which shuffles the order of the flashc
 
 
 Together, the HTML, CSS, and JavaScript files work together to create a simple flashcard app that allows users to study a variable number of flashcards. The HTML defines the structure of the web page, the CSS defines the styles, and the JavaScript defines the functionality.
-
